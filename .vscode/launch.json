@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug only main.cpp -- Truong",
+        "type": "cppdbg",
+        "request": "launch",
+        "args": [],
+        "stopAtEntry": false,
+        "externalConsole": true,
+        "cwd": "d:/C++/Debug",
+        "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",  // Output program path
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:/MinGW/bin/gdb.exe", // Full path to gdb.exe
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "preLaunchTask": "C/C++: g++.exe build file main --Truong", // Matches the task in tasks.json
+        "internalConsoleOptions": "openOnSessionStart"
+      }
+    ]
+  }
