@@ -8,7 +8,7 @@
         "args": [],
         "stopAtEntry": false,
         "externalConsole": true,
-        "cwd": "d:/C++/Debug",
+        "cwd": "${fileDirname}",
         "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",  // Output program path
         "MIMode": "gdb",
         "miDebuggerPath": "C:/MinGW/bin/gdb.exe", // Full path to gdb.exe
