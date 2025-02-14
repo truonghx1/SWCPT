@@ -3,32 +3,28 @@
 #include <set>
 using namespace std;
 
-void combinebt(set<vector<int>>& ans, int n, int k, vector<int>& tmp, vector<bool>& used)
+void backtrack(int start, vector<int> comb, int n, int k, vector<vector<int>>& res)
 {
-    if (tmp.size() == k)
+    if (comb.size() == k)
     {
-        ans.insert(tmp);
+        res.push_back(comb);
         return;
     }
-    for(int i = 1; i <= n; i++)
+    for(int i = start; i <= n; i++)
     {
-        if (used[i]) continue;
-        used[i] = true;
-        tmp.push_back(i);
-        combinebt(ans,n,  k, tmp,used);
-        used[i] = false;
-        tmp.pop_back();
-
+        comb.push_back(i);
+        backtrack(i + 1, comb, n, k, res);
+        comb.pop_back();
     }
 }
+
 vector<vector<int>> combine(int n, int k) {
-    set<vector<int>> ans;
-    vector<int> tmp;
-    vector<bool> used(n+1, false);
-    combinebt(ans, n, k, tmp, used);
-    vector<vector<int>> res(ans.begin(), ans.end());
-    return res;    
+    vector<vector<int>> res;
+    vector<int> comb;
+    backtrack(1, comb, n, k, res);
+    return res;
 }
+
 int main()
 {
     

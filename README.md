@@ -33,7 +33,7 @@
 ## Algorithms
 
 ### Backtracking
-1. [Combination Sum III](https://leetcode.com/problems/combination-sum-iii)  
+1. [Combination Sum III](https://leetcode.com/problems/combination-sum-iii)  ==> **DONE**
 2. [Sudoku Solver](https://leetcode.com/problems/sudoku-solver)  
 3. [Expression Add Operators](https://leetcode.com/problems/expression-add-operators)  
 4. [Word Break II](https://leetcode.com/problems/word-break-ii)  
@@ -66,19 +66,19 @@ t
 
 Backtracking:  
 Level 1 :  
-Permutations : http://leetcode.com/problems/permutations/  
-Permutations II : http://leetcode.com/problems/permutations-ii/  
+Permutations : http://leetcode.com/problems/permutations/   ==> **DONE**
+Permutations II : http://leetcode.com/problems/permutations-ii/  ==> **DONE**
 
-Combinations : http://leetcode.com/problems/combinations/  
-Combination Sum : http://leetcode.com/problems/combination-sum/  
-Combination Sum II : http://leetcode.com/problems/combination-sum-ii/  
-Combination Sum III : http://leetcode.com/problems/combination-sum-iii/  
+Combinations : http://leetcode.com/problems/combinations/  ==> **DONE**
+Combination Sum : http://leetcode.com/problems/combination-sum/  ==> **DONE**
+Combination Sum II : http://leetcode.com/problems/combination-sum-ii/  ==> **DONE**
+Combination Sum III : http://leetcode.com/problems/combination-sum-iii/  ==> **DONE**
 
-Subsets : http://leetcode.com/problems/subsets  
-Subsets II : http://leetcode.com/problems/subsets-ii/submissions/  
-Palindrome Partitioning : http://leetcode.com/problems/palindrome-partitioning/  
-Generate Parentheses : http://leetcode.com/problems/generate-parentheses/  
-Word Search : http://leetcode.com/problems/word-search/  
+Subsets : http://leetcode.com/problems/subsets  ==> **DONE**
+Subsets II : http://leetcode.com/problems/subsets-ii/submissions/  ==> **DONE**
+Palindrome Partitioning : http://leetcode.com/problems/palindrome-partitioning/  ==> **DONE** Chưa hiểu lắm
+Generate Parentheses : http://leetcode.com/problems/generate-parentheses/  ==> **DONE** 
+Word Search : http://leetcode.com/problems/word-search/  ==> **DONE** 
 Shopping Offers : http://leetcode.com/problems/shopping-offers  
 Count Number of Texts : https://leetcode.com/problems/count-number-of-texts/ (memoization needed)  
 Letter Combinations of a Phone Number : https://leetcode.com/problems/letter-combinations-of-a-phone-number/  
