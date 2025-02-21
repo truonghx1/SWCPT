@@ -1,9 +1,19 @@
+/*
+5 5
+1 2
+1 3
+1 4
+2 3
+5 4
+3
+1 4 5
+*/
 #include <iostream>
 #include <vector>
 #include <queue>
 using namespace std;
-vector<int> adj[100001];
-int trace[100001];
+vector<int> adj[10];
+int trace[10];
 int n, m;
 void tracef(int s, int f)
 {

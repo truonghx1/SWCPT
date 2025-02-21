@@ -1,6 +1,6 @@
 /*
 Input:
-5 3
+6 3
 1 2
 1 3
 4 5
@@ -75,54 +75,6 @@ int main()
         }
         
     }
-//     vector<int> assigned(n+1);
-//     bool valid = true;
-//     for (int i = 1; i <=n; i++)
-//     {
-//         if (assigned[i] != 0)
-//         {
-//             continue;
-//         }
-        
-//         assigned[i] = 1;
-//         queue <int> q;
-//         q.push(i);
-//         while (!q.empty())
-//         {
-//             int curr = q.front(); q.pop();
-//             int team;
-//             if (assigned[curr] == 1)
-//             {
-//                 team = 2;
-//             }
-//             else
-//             {
-//                 team = 1;
-//             }
-//             for (int v : adj[curr])
-//             {
-//                 if (assigned[v] != 0)
-//                 {
-//                     if (assigned[v] != team)
-//                     {
-//                         valid = false;
-//                         goto end;
-//                     }
-                    
-//                 }
-//                 else
-//                 {
-//                     assigned[v] = team;
-//                     q.push(v);
-//                 }
-                
-//             }
-            
-//         }
-        
-//     }
-
-// end:;
     if (valid)
     {
         for (int i = 1; i <=n ; i++)
